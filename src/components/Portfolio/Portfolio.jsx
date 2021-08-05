@@ -19,12 +19,9 @@ import {
       },
       {
         id: "web",
-        title: "Web App",
+        title: "Web Apps",
       },
-      {
-        id: "mobile",
-        title: "Mobile App",
-      },
+     
     ];
   
     useEffect(() => {
@@ -34,15 +31,6 @@ import {
           break;
         case "web":
           setData(webPortfolio);
-          break;
-        case "mobile":
-          setData(mobilePortfolio);
-          break;
-        case "design":
-          setData(designPortfolio);
-          break;
-        case "content":
-          setData(contentPortfolio);
           break;
         default:
           setData(featuredPortfolio);
